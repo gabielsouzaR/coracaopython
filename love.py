@@ -6,7 +6,7 @@ window.title("Feliz dia dos namorados!")
 
 pen = turtle.Turtle()  # Cria uma nova tartaruga para desenhar
 pen.color("red")  # Define a cor da tartaruga para vermelho
-pen.pensize(10)  # Define a espessura da caneta para 8 pixels
+pen.pensize(10)  # Define a espessura da caneta para 10 pixels
 pen.speed(20)  # Define a velocidade de desenho da tartaruga
 
 # Posiciona a tartaruga no centro da tela
@@ -37,8 +37,4 @@ pen.penup()  # Levanta a caneta para não deixar traços ao mover
 pen.setpos(0, -200)  # Define a posição da tartaruga para escrever a primeira mensagem
 pen.pendown()  # Abaixa a caneta para começar a escrever
 
-pen.color("black")  # Define a cor da tartaruga para preto
-pen.write("Você roubou meu coração.\n""Feliz dia dos namorados ❤️", align="center", font=("Arial", 16, "bold"))  # Escreve a mensagem no centro da tela
-pen.hideturtle()
-
-turtle.done()  # Finaliza o programa turtle
+turtle.done() 
